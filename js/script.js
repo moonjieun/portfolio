@@ -49,11 +49,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   animateElements.forEach((el) => observer.observe(el));
 
-  const svgPaths = document.querySelectorAll(".svgAni path");
-  svgPaths.forEach((path) => {
-    let length = path.getTotalLength();
-    console.log(`Path length: ${length}`);
-  });
+  // const svgPaths = document.querySelectorAll(".svgAni path");
+  // svgPaths.forEach((path) => {
+  //   let length = path.getTotalLength();
+  //   console.log(`Path length: ${length}`);
+  // });
 });
 
 // .con01 gsap 애니메이션
